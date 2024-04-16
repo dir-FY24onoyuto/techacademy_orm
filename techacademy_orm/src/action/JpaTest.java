@@ -8,7 +8,7 @@ import util.DButil;
 
 public class JpaTest {
 
-    public static void main(String[]args) {
+    public static void main(String[] args) {
         //EntityManagerのオブジェクトを生成
         EntityManager em =DButil.createEntityManager();
         
